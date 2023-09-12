@@ -13,4 +13,4 @@ def read_root():
 # scrapper
 @app.get("/hello")
 def hello():
-    return {"Heello": "World"}
+    return {"Hello": "World"}
